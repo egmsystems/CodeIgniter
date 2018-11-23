@@ -60,6 +60,13 @@ class CI_DB_sqlsrv_driver extends CI_DB {
 	public $dbdriver = 'sqlsrv';
 
 	/**
+	 * Database schema
+	 *
+	 * @var	string
+	 */
+	public $schema = 'dbo';
+	
+	/**
 	 * Scrollable flag
 	 *
 	 * Determines what cursor type to use when executing queries.
